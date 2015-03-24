@@ -108,43 +108,6 @@
 
 <?php endif; ?>
 </div>
-<!-- sidebar north END -->
-
-<div id="centersidebar">
-
-	<!-- sidebar east START -->
-	<div id="eastsidebar" class="sidebar">
-	<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('east_sidebar') ) : ?>
-
-		<!-- categories -->
-		<div class="widget widget_categories">
-			<h3>Categories</h3>
-			<ul>
-				<?php wp_list_cats('sort_column=name&optioncount=0&depth=1'); ?>
-			</ul>
-		</div>
-
-	<?php endif; ?>
-	</div>
-	<!-- sidebar east END -->
-
-	<!-- sidebar west START -->
-	<div id="westsidebar" class="sidebar">
-	<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('west_sidebar') ) : ?>
-
-		<!-- blogroll -->
-		<div class="widget widget_links">
-			<h3>Blogroll</h3>
-			<ul>
-				<?php wp_list_bookmarks('title_li=&categorize=0'); ?>
-			</ul>
-		</div>
-
-	<?php endif; ?>
-	</div>
-	<!-- sidebar west END -->
-	<div class="fixed"></div>
-</div>
 
 <!-- sidebar south START -->
 <div id="southsidebar" class="sidebar">
