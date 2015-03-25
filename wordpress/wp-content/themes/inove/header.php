@@ -20,6 +20,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head profile="http://gmpg.org/xfn/11">
+	<meta name="baidu-site-verification" content="WNz6yE0aD6" />
 	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
 
