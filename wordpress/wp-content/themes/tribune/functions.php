@@ -46,32 +46,3 @@ function remove_open_sans() {
 }
 add_action( 'init', 'remove_open_sans' );
 
-
-function no_errors_please(){
-	return 'get off you SCRIPT KIDDIE';
-}
-add_filter( 'login_errors', 'no_errors_please' );
-function stop_guessing($url) {
-
-	if (is_404()) {
-		return false;
-	}
-	return $url;
-}
-add_filter('redirect_canonical', 'stop_guessing');
-
-function wpbeginner_remove_version() {
-	return '';
-}
-add_filter('the_generator','wpbeginner_remove_version');
-
-add_action('login_enqueue_scripts','login_protection');
-
-function login_protection(){
-	if($_GET['word'] !='19901212')header('Location: http://youngershen.com/');
-}
-add_filter('author_link','my_author_link' );
-
-function my_author_link() {
-	return home_url('/' );
-}
