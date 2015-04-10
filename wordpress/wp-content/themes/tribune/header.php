@@ -11,8 +11,8 @@
 	<!--[if IE 6]><link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/ie6.css" /><![endif]-->
 	<!--[if IE 7 ]><link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/ie7.css" /><![endif]-->
 
-	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
-
+        <meta name="google-site-verification" content="WPTTN3hsxSFMrzKo52hFkzetpUmoeHK2-SKhG6oLt5Q" />
+		
 	<?php if (option::get('sidebar_pos') == 'Left') { ?><style type="text/css">#sidebar{float:left;} #main {float:right;}</style><?php } ?>
 
 	<?php wp_head(); ?>
