@@ -38,11 +38,3 @@ require_once THEME_INC . "/widgets/twitter.php";
 
 /** User functions */
 require_once USER_INC . "/functions.php";
-// remove google fonts
-function remove_open_sans() {
-	wp_deregister_style( 'open-sans' );
-	wp_register_style( 'open-sans', false );
-	wp_enqueue_style('open-sans','');
-}
-
-
