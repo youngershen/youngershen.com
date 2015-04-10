@@ -11,6 +11,7 @@
 	<!--[if IE 6]><link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/ie6.css" /><![endif]-->
 	<!--[if IE 7 ]><link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/ie7.css" /><![endif]-->
 
+	<link href='<?php bloginfo('template_directory'); ?>/base.css' rel='stylesheet' type='text/css'>
 
 
 	<?php if (option::get('sidebar_pos') == 'Left') { ?><style type="text/css">#sidebar{float:left;} #main {float:right;}</style><?php } ?>
