@@ -46,14 +46,6 @@ function remove_open_sans() {
 }
 add_action( 'init', 'remove_open_sans' );
 
-remove_action( 'wp_head', 'wp_generator' ) ;
-remove_action( 'wp_head', 'wlwmanifest_link' ) ;
-remove_action( 'wp_head', 'rsd_link' ) ;
-
-add_filter( 'pre_comment_content', 'wp_specialchars' );
-define( 'WP_POST_REVISIONS', false);
-remove_action( 'wp_head', 'feed_links', 2 );
-remove_action( 'wp_head', 'feed_links_extra', 3 );
 
 function no_errors_please(){
 	return 'get off you SCRIPT KIDDIE';
