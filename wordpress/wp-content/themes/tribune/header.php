@@ -10,8 +10,6 @@
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" media="screen" />
 	<!--[if IE 6]><link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/ie6.css" /><![endif]-->
 	<!--[if IE 7 ]><link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/ie7.css" /><![endif]-->
-
-        <meta name="google-site-verification" content="WPTTN3hsxSFMrzKo52hFkzetpUmoeHK2-SKhG6oLt5Q" />
 		
 	<?php if (option::get('sidebar_pos') == 'Left') { ?><style type="text/css">#sidebar{float:left;} #main {float:right;}</style><?php } ?>
 
