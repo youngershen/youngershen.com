@@ -1,0 +1,115 @@
+Tribune Theme
+http://www.wpzoom.com/themes/tribune/
+
+ 
+CHANGELOG
+---------------------------
+
+v 2.0.5 (November 2, 2012)
+	
+	- wpzoom-slider.php - Bug fix: Footer widgets were not displayed if Footer Slider was enabled.
+	
+
+v 2.0.4 (October 23, 2012)
+
+	- search.php - broken layout bug fix.
+	
+
+v 2.0.3 (October 15, 2012)
+	
+	- category.php - Fixed a bug on category archive pages.
+	
+
+v 2.0.2 (October 10, 2012)
+
+	- category.php - Fixed bug with latest post showing full content.
+
+
+v 2.0.1 (September 27, 2012)
+
+	- style.css - fixed the title of Featured Categories, when selecting "Black" color.
+	- wpzoom-slider.php - bug fix with image height.
+
+	
+v 2.0 (September 6, 2012)
+
+	- Featured area redesigned
+	- Fully re-written code
+	- WPZOOM Framework is now integrated in this theme
+	- All theme files were modified.
+	- Added support for native WordPress image cropping
+	- The theme doesn't uses TimThumb script for thumbnails cropping anymore
+
+	New features:
+		- Redesigned featured area
+		- Facebook Widget
+		- Twitter Widget
+  
+	Improvements:
+		- All widgets were updated.
+ 		- Numerous bug fixes and code improvements
+
+
+v 1.5.1 (14 December, 2011)
+
+	- An update for WP 3.3
+	- Files edited: 
+		- archive.php
+		- category.php
+		- header.php
+		- search.php
+		- style.css
+
+
+v 1.5 (6th August, 2011)
+
+	- An important security fix: /scripts/timthumb.php has been updated to 2.0
+
+
+v 1.4 (July 26, 2011)
+	
+	- modified files:
+		functions/wpzoom-functions.php
+		single.php
+	- "Most viewed" tab from sidebar doesn't require "Top 10" plugin to work anymore.
+	
+
+v 1.3.1
+	
+	- new file: js/jquery.js - for fixing bug with columns in featured post
+	- modified file: functions/wpzoom-core.php
+
+
+v 1.3
+
+	- new file: custom.css - add in it your custom CSS code.
+	- minor fixes to support child themes
+	- modified files:
+		functions/wpzoom-core.php
+		functions/wpzoom-functions.php
+		wpzoom_admin/admin_functions.php
+		wpzoom_admin/options.css
+		header.php
+		style.css
+		footer.php
+		single.php
+
+
+v 1.2
+
+	- author.php file removed
+ 	- minor bug fixes
+ 	- added support for WPMU
+	- /scripts/timthumb.php file updated
+ 	
+	
+v 1.1
+	
+	- wpzoom-slider.php - replaced the_content_limit with the_excerpt
+	- new template file: category.php
+	- functions/wpzoom-functions.php - fixed a bug in line #993
+	
+	
+v 1.0
+
+	- initial version
