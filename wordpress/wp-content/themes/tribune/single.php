@@ -42,21 +42,6 @@ if (have_posts()) :
  			 
 			<div class="clear"></div>
 
-			<?php if ( option::get('post_share') == 'on' ) {
-
-				?><div id="socialicons">
-
-					<ul class="wpzoomSocial">
-						<li><a href="http://twitter.com/share" data-url="<?php the_permalink(); ?>" class="twitter-share-button" data-count="horizontal">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></li>
-						<li><iframe src="http://www.facebook.com/plugins/like.php?href=<?php echo urlencode(get_permalink($post->ID)); ?>&amp;layout=button_count&amp;show_faces=false&amp;width=110&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:21px;" allowTransparency="true"></iframe></li>
-						<li><g:plusone size="medium"></g:plusone></li>
-
-					</ul>
-
-				</div><div class="clear"></div><?php
-
-			} ?>
-
 			<?php if (option::get('post_authorbio') == 'on') { ?>		
 				<div class="post_author">
 					<?php echo get_avatar( get_the_author_meta('ID') , 70 ); ?>
